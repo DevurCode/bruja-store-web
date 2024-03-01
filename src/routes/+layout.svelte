@@ -1,6 +1,7 @@
 <!-- App.svelte -->
 <script>
 	import Footer from './Footer.svelte';
+	import Header from './Header.svelte';
 </script>
 
 <html lang="en">
@@ -21,6 +22,7 @@
 	</head>
 	<body>
 		<div class="app">
+			<Header />
 			<main>
 				<slot />
 			</main>
